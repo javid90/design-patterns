@@ -1,5 +1,5 @@
 package com.aj.patterns.abstractfactory;
 
-public class GameFactory extends AbstractFactory {
+public class GameFactorys extends AbstractFactory {
 
 }
