@@ -9,10 +9,9 @@ public class DeviceFactory extends AbstractFactory {
 	protected Device getDeviceFactory(String device) {
 		
 		switch(device) {
-		
-		case "PC":
-			return new PC();
-		}
+			case "PC":
+				return new PC();
+			}
 		
 		return null;
 	}
