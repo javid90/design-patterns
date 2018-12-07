@@ -1,8 +1,4 @@
-package com.aj.patterns;
-
-import com.aj.patterns.factory.Computer;
-import com.aj.patterns.factory.ComputerFactory;
-import com.aj.patterns.factory.Laptop;
+package com.aj.patterns.factory;
 
 public class FactoryPatternDemo {
 
