@@ -7,7 +7,7 @@ public class ChainOfResponsibilityDemo {
 		Handler audioHandler = new AudioFileHandler("Audio Handler");
 		Handler videoHandler = new VideoFileHandler("Video Handler");
 		
-		File file = new File("Abc.mp3", "text", "C:");
+		File file = new File("Abc.mp3", "audio", "C:");
 		imageHandler.setHandler(textHandler);
 		textHandler.setHandler(audioHandler);
 		audioHandler.setHandler(videoHandler);
